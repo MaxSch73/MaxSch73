@@ -1,0 +1,18 @@
+.card {
+    
+    background-color: #1a36b6;
+    color: #ffffff;
+    width: 22%;
+    height: 22%;
+    margin: 1%;
+    text-align: center;
+    line-height: 20vh;
+  }
+  
+  .deck {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 45vw;
+    margin: auto;
+  }

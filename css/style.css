@@ -1,24 +1,50 @@
 body {
-    font-size: 3.5vh;
-    font-weight: bold;
-  }
-  
-  .deck {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 92vh;
-    height: 92vh;
-    margin: auto;
-  }
-  
+  font-size: 4vh;
+  background-color:rgb(88, 112, 163);
+}
+
   .card {
     
-    background-color: lightblue;
+    background-color: rgb(106, 188, 209);
     color: black;
     width: 22%;
     height: 22%;
     margin: 1%;
     text-align: center;
     line-height: 20vh;
+  }
+  
+  .deck {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 85vh;
+    height: 85vh;
+    margin: auto;
+  }
+  
+  
+  #a1.flip{
+    background-color: orange;
+  }
+  #b1.flip{
+    background-color: purple;
+  }
+  #c1.flip{
+    background-color: red;
+  }
+  #d1.flip{
+    background-color: blue;
+  }
+  #e1.flip{
+    background-color: green;
+  }
+  #f1.flip{
+    background-color: yellow;
+  }
+  #g1.flip{
+    background-color: black;
+  }
+  #h1.flip{
+    background-color: pink;
   }

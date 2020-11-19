@@ -9,57 +9,24 @@
 <body>
     <div class="container">
         <div class="deck" id="card-deck">
-            <div class="card"data-framework="a" id="a1">
-                
+
+            <div class="card">
             </div>
-            <div class="card" data-framework="f" id="f1">
-                
-            </div>
-            <div class="card" data-framework="c" id="c1">
-                
-            </div>
-            <div class="card" data-framework="g" id="g1">
-                
-            </div>
-            <div class="card" data-framework="f" id="f1">
-                
-            </div>
-            <div class="card" data-framework="b" id="b1">
-                
-            </div>
-            <div class="card" data-framework="h" id="h1">
-                
-            </div>
-            <div class="card" data-framework="d" id="d1">
-                
-            </div>
-            <div class="card" data-framework="h" id="h1">
-                
-            </div>
-            <div class="card" data-framework="g" id="g1">
-                
-            </div>
-            <div class="card" data-framework="b" id="b1">
-                
-            </div>
-            <div class="card" data-framework="a" id="a1">
-                
-            </div>
-            <div class="card" data-framework="e" id="e1">
-                
-            </div>
-            <div class="card" data-framework="c" id="c1">
-                
-            </div>
-            <div class="card" data-framework="e" id="e1">
-                
-            </div>
-            <div class="card" data-framework="d" id="d1">
-                
-            </div>
+
+            
+
         </div>
     </div>
     </div>
+
+    <script>
+        var x ="", i;
+        for (i=1; i<=6; i++) {
+          x = x + "<h" + i + ">Heading " + i + "</h" + i + ">";
+        }
+        document.getElementById("carddeck").innerHTML = x;
+    </script>
+
     <script src="./jss/v1.js"></script>
 </body>
 </html>
